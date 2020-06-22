@@ -1,0 +1,13 @@
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+  .top-wrapper {
+    margin-top: 50px;
+    padding: 200px 100px;
+  }
+  .menu {
+    width: 100%;
+    padding-bottom: 50px;
+  }
+  .order input, textarea {
+    width: 200px;
+}
