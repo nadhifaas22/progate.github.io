@@ -24,10 +24,4 @@
   .order input, textarea {
     width: 200px;
   }
-  .header-kanan {
-    display:none;
-  }
-  .menu-icon {
-  display: block;
-  }
 }
