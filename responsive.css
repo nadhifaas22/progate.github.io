@@ -1,3 +1,9 @@
+@media all and (max-width: 1000px) {
+  .menu {
+    width: 50%;
+  }
+}
+
 /* Untuk Smartphone */
 @media all and (max-width: 670px) {
   .top-wrapper {
@@ -10,4 +16,11 @@
   }
   .order input, textarea {
     width: 200px;
+  }
+  .menu-icon {
+    display: block;
+  }
+  .header-kanan {
+    display: none;
+  }
 }
