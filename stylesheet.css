@@ -9,14 +9,15 @@ header {
   height: 80px;
   width: 100%;
   background-color: #89e5e8;
-  z-index: 10;
+  z-index: 9;
 }
 .header-kiri img {
   height: 80px;
   float: left;
   padding: 0 25px;
 }
-.header-icon {
+.menu-icon {
+  float: right;
   display: none;
 }
 .header-kanan a {
@@ -24,6 +25,7 @@ header {
   padding: 0 25px;
   line-height: 80px;
   color: black;
+  text-decoration: none;
 }
 .header-kanan a:hover {
   background-color: #89e5e8;
