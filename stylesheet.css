@@ -1,0 +1,123 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI";
+}
+
+header {
+  position: fixed;
+  top: 0;
+  height: 80px;
+  width: 100%;
+  background-color: #89e5e8;
+  z-index: 10;
+}
+.header-kiri img {
+  height: 80px;
+  float: left;
+  padding: 0 25px;
+}
+.header-kanan a {
+  float: left;
+  padding: 0 25px;
+  line-height: 80px;
+  color: black;
+}
+.header-kanan a:hover {
+  background-color: #89e5e8;
+  opacity: 0.5;
+}
+
+.top-wrapper {
+  padding: 400px 200px;
+  background-image: url(https://cdn.discordapp.com/attachments/722752583780794400/723925120967639050/BG2.png);
+  background-size: cover;
+  text-align: center;
+  background-position: center;
+}
+
+.menu-title {
+  color: #89e5e8;
+  font-family: "Segoe Print";
+  font-weight: bolder;
+  text-align: center;
+  background-color: #474342;
+  width:100%;
+  margin: 0;
+  padding: 20px 0;
+}
+
+.menu {
+  float: left;
+  width: 25%;
+  text-align: center;
+  padding-bottom: 100px;
+}
+
+.menu h2 {
+  font-family: "Segoe UI";
+  font-weight: normal;
+}
+
+.menu p {
+  font-family: "Segoe UI";
+  margin: 20px 20px;
+  padding-bottom: 10px;
+}
+
+.menu img {
+  width:250px;
+  border-radius: 8px;
+}
+
+.pesan {
+  text-align: center;
+  z-index: 5;
+  font-weight: bold;
+  font-family: "Segoe UI";
+  color: #474342;
+  background-color: #89e5e8;
+  padding: 10px 30px;
+  border-radius: 4px;
+  box-shadow: 0 7px #5d9c9e;
+  opacity: 1;
+  text-decoration: none;
+}
+
+.pesan:hover {
+  opacity: 0.8;
+}
+.pesan:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+.section-title {
+  color: #474342;
+  font-family: "Segoe Print";
+  font-weight: bolder;
+  text-align: center;
+  width:100%;
+  margin: 0;
+}
+
+.section-title {
+  font-size: 24px;
+}
+.order-submit {
+  background-color: #89e5e8;
+  color: #474342;
+  font-family: "Segoe UI";
+  font-weight: bold;
+}
+
+.order p {
+  margin-left: 30px;
+}
+.order input, textarea {
+  margin-left: 30px;
+  width: 400px;
+  padding: 20px;
+  font-size: 18px;
+  border: 1px solid #dee7ec;
+}
