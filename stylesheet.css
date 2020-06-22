@@ -16,6 +16,9 @@ header {
   float: left;
   padding: 0 25px;
 }
+.header-icon {
+  display: none;
+}
 .header-kanan a {
   float: left;
   padding: 0 25px;
