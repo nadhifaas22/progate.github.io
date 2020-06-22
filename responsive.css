@@ -2,6 +2,13 @@
   .menu {
     width: 50%;
   }
+  .order input, textarea {
+    width: 250px;
+  }
+  .top-wrapper {
+    margin-top: 50px;
+    padding: 300px 200px;
+  }
 }
 
 /* Untuk Smartphone */
@@ -17,10 +24,10 @@
   .order input, textarea {
     width: 200px;
   }
-  .menu-icon {
-    display: block;
-  }
   .header-kanan {
-    display: none;
+    display:none;
+  }
+  .menu-icon {
+  display: block;
   }
 }
