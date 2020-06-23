@@ -20,6 +20,7 @@ header {
   float: left;
   padding: 0 25px;
 }
+
 .header-kanan a {
   float: left;
   padding: 0 25px;
@@ -28,7 +29,7 @@ header {
   text-decoration: none;
 }
 .header-kanan a:hover {
-  background-color: #89e5e8;
+  background-color: #059ba3;
   opacity: 0.5;
 }
 
@@ -125,4 +126,26 @@ header {
   padding: 20px;
   font-size: 18px;
   border: 1px solid #dee7ec;
+}
+
+footer {
+  margin-top: 40px;
+  height: 100px;
+  width: 100%;
+  background-color: #206787;
+}
+.footer-kiri img {
+  float: left;
+  height: 100px;
+  padding: 0 25px;
+}
+.footer-kanan {
+  padding-top: 15px;
+}
+.footer-kanan p {
+  color: white;
+  margin: auto;
+}
+.footer-kanan p:hover {
+  font-weight: bold;
 }
